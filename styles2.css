@@ -1,0 +1,44 @@
+/* Styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Styles for the container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the heading */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styles for each row of information */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the information */
+.info {
+  flex-basis: 45%; /* Adjust the width of each info block */
+}
+
+/* Styles for the labels */
+.info label {
+  font-weight: bold;
+}
+
+/* Styles for the spans */
+.info span {
+  color: #666;
+}
