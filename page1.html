@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search Page</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
   </head>
   <body>
     <div class="background">
       <div class="search-container">
         <h2></h2>
 
-        <form action="search_results_page.html" method="get">
-          <label for="searchInput">Enter Vehicle plate number</label><br />
-          <input type="text" id="searchInput" name="q" /><br /><br />
+        <form action="/search" method="POST">
+          <label for="plate_number">Enter Vehicle Plate number</label><br />
+          <input type="text" id="plate_number" name="plate_number" /><br /><br />
           <button type="submit" class="button">Search</button>
         </form>
       </div>
     </div>
   </body>
 </html>
+
